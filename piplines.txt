@@ -1,0 +1,22 @@
+Step 1: Set Up a Git Repository
+Initialize a Git repository for your web project:
+git init
+Commit your codebase:
+git add .
+git commit -m "Initial commit"
+
+Step 2: Configure Jenkins for CI/CD
+1. Install Jenkins:
+Follow the steps in Jenkins’ installation documentation if you haven’t already.
+Install Plugins:
+2. Git Plugin: For pulling code from the Git repository.
+NodeJS Plugin (optional): If the web project uses Node.js for build/test.
+3. Pipeline Plugin: For managing pipelines as code.
+Create a New Jenkins Job:
+Go to the Jenkins dashboard, click New Item, and create a Pipeline or Freestyle Project.
+
+Step 3: Configure the Jenkins Pipeline
+
+Step 4: Deploy and Test Locally
+After the pipeline completes, Jenkins will deploy the latest version of your web application to the HTTP server. Test your application by visiting http://localhost (or another local server address).
+
